@@ -17,13 +17,11 @@ if (innerWidth <= 800) {
             item.classList.add("hide") 
         })
     nav.appendChild(img)
-
     if (!navMobileOpen) {
         displayNav()
     }
-
-    
 }
+
 else {
     btnNav.classList.remove("hide")
     navItems.forEach(item => {
